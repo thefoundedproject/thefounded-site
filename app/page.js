@@ -54,7 +54,7 @@ function CapitalMap() {
     <div>
       <p style={{ color: '#D8AB69', fontSize: 10, fontWeight: 700, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: 24 }}>Your Six Capitals</p>
       <p style={{ color: 'rgba(245,240,232,0.7)', fontSize: 14, lineHeight: 1.6, marginBottom: 32 }}>
-        Tap each capital. Be straight with yourself. No one's watching.
+        Tap each capital. Be honest — no one is watching.
       </p>
       <div className="space-y-2 mb-8">
         {CAPITALS.map(cap => (
@@ -109,7 +109,7 @@ function CapitalMap() {
             </div>
           )}
           <p style={{ color: 'rgba(245,240,232,0.5)', fontSize: 12, lineHeight: 1.6, marginBottom: 20 }}>
-            This is your baseline. The Founded App tracks this in real time and builds the governance around it.
+            This is your baseline. The Founded App tracks this in real time — and builds the governance around it.
           </p>
           <a href="https://thefounded.app" style={{ color: '#D8AB69', fontSize: 13, fontWeight: 700, textDecoration: 'none', borderBottom: '1px solid rgba(216,171,105,0.4)', paddingBottom: 1 }}>
             Build this into your full governance dashboard →
@@ -125,16 +125,16 @@ const QUIZ = [
   {
     q: 'Where are you in the governance arc right now?',
     options: [
-      { label: 'Still in survival mode. I'm enduring, not designing.', value: 'survival' },
-      { label: 'Rebuilding. I made it through something and I'm trying to find solid ground.', value: 'rebuild' },
-      { label: 'Ready to build. I've got stability and I need structure for what comes next.', value: 'build' },
-      { label: 'Already building. I need to protect what I've created.', value: 'protect' },
+      { label: 'Still in survival mode — I am enduring, not designing.', value: 'survival' },
+      { label: 'Rebuilding — I made it through something and I am trying to find solid ground.', value: 'rebuild' },
+      { label: 'Ready to build — I have stability and I need structure for what comes next.', value: 'build' },
+      { label: 'Already building — I need to protect and sustain what I created.', value: 'protect' },
     ],
   },
   {
     q: 'Your current advisory board looks like:',
     options: [
-      { label: 'Empty. I make decisions alone.', value: 'none' },
+      { label: 'Empty — I make decisions alone.', value: 'none' },
       { label: 'A few friends or family members. Supportive, but not always strategic.', value: 'informal' },
       { label: 'Some mentors and advisors. But they do not always give me the truth.', value: 'partial' },
       { label: 'People who challenge and counsel me. Still not formalized.', value: 'emerging' },
@@ -152,9 +152,9 @@ const QUIZ = [
 ]
 
 const PROFILES = {
-  survival: { title: 'You are still in survival mode.', description: 'The governance framework was built to meet people here. Survival instincts are real. They kept you alive. The work is to give them somewhere better to go.', cta: 'Start with the basics', href: '/theory' },
-  rebuild: { title: 'You are in reclamation.', description: 'You survived something. Now you are rebuilding. The framework enters here. Not with a five-year plan. Just the first question: what do you need to protect while you're still getting steady?', cta: 'Start with the framework', href: '/theory' },
-  build: { title: 'You are ready to build.', description: 'You have the foundation. Now you need the architecture. The Founded App is designed for this exact moment, when you're stable enough to be strategic.', cta: 'Get early access to the app', href: '/contact' },
+  survival: { title: 'You are still in survival mode.', description: 'The governance framework was built to meet people here. Survival instincts are real. They kept you alive. The work is not to override them — it is to give them a more spacious operating system.', cta: 'Start with the basics', href: '/theory' },
+  rebuild: { title: 'You are in reclamation.', description: 'You survived something. Now you are rebuilding. The framework enters here — not with a five-year plan, but with the first question: what do you need to protect while you are still getting steady?', cta: 'Start with the framework', href: '/theory' },
+  build: { title: 'You are ready to build.', description: 'You have the foundation. Now you need the architecture. The Founded App is designed for this exact moment — when you are stable enough to be strategic.', cta: 'Get early access to the app', href: '/contact' },
   protect: { title: 'You are protecting what you built.', description: 'This is the full Human Enterprise layer. Governance, continuity, board structure, data stewardship, and community coordination. You built it. Now protect it.', cta: 'Explore the full framework', href: '/theory' },
 }
 
@@ -311,7 +311,7 @@ export default function Home() {
                 What do you<br />actually own?
               </h2>
               <p style={{ color: 'rgba(245,240,232,0.55)', fontSize: 16, lineHeight: 1.75, marginBottom: 16 }}>
-                Before strategy comes inventory. This is the six-capital audit, the first move of the Human Enterprise framework.
+                Before strategy comes inventory. This is the six-capital audit — the first move of the Human Enterprise framework.
               </p>
               <p style={{ color: 'rgba(245,240,232,0.35)', fontSize: 14, lineHeight: 1.7 }}>
                 You have more than you know. And some of it is bleeding. This tool shows you both.
@@ -371,7 +371,7 @@ export default function Home() {
               Where does the framework meet you?
             </h2>
             <p style={{ color: 'rgba(245,240,232,0.55)', fontSize: 15, lineHeight: 1.7, marginBottom: 16 }}>
-              The Human Enterprise framework isn't one-size. It enters where you are: survival, reclamation, building, or protection.
+              The Human Enterprise framework is not one-size. It enters where you are — survival, reclamation, building, or protection.
             </p>
             <p style={{ color: 'rgba(245,240,232,0.35)', fontSize: 13, lineHeight: 1.6 }}>
               Three questions to find your level. Your results are emailed to you with a specific next step.
@@ -385,6 +385,55 @@ export default function Home() {
         </div>
       </section>
 
+      {/* WHAT YOU BUILD — concrete outcomes */}
+      <section style={{ backgroundColor: '#F5F0E8', padding: '100px 24px' }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 64, alignItems: 'start' }}>
+            <Reveal>
+              <p style={{ color: '#D8AB69', fontSize: 10, fontWeight: 700, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: 20 }}>In Your First 30 Days</p>
+              <h2 style={{ color: '#0F1B1F', fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 300, lineHeight: 1.2, letterSpacing: '-0.02em', marginBottom: 20 }}>
+                You won't just feel better organized.<br />You'll be organized.
+              </h2>
+              <p style={{ color: 'rgba(15,27,31,0.6)', fontSize: 16, lineHeight: 1.75 }}>
+                The framework produces real artifacts. Things you can point to, return to, and build on. Here's what's in your hands after the first month.
+              </p>
+            </Reveal>
+            <Reveal delay={200}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                {[
+                  { num: '01', item: 'A written mission statement', note: 'Yours. Not anyone else\'s version of you.' },
+                  { num: '02', item: 'Your six capitals mapped', note: 'What\'s healthy. What\'s depleted. What needs protecting.' },
+                  { num: '03', item: 'A board of advisors started', note: 'Real people with real counsel. Not just supporters.' },
+                  { num: '04', item: 'Your first decision logged', note: 'With board input. With your final call recorded.' },
+                  { num: '05', item: 'A morning ritual that works', note: 'Breathwork, journal, mission check, department scan.' },
+                  { num: '06', item: 'A governance system that\'s yours', note: 'Built around your life. Not a template.' },
+                ].map((row, i) => (
+                  <div key={row.num} style={{ display: 'flex', gap: 20, alignItems: 'flex-start', padding: '20px 0', borderBottom: '1px solid rgba(15,27,31,0.08)' }}>
+                    <span style={{ color: '#D8AB69', fontSize: 11, fontWeight: 700, minWidth: 28, paddingTop: 3 }}>{row.num}</span>
+                    <div>
+                      <p style={{ color: '#0F1B1F', fontSize: 15, fontWeight: 600, marginBottom: 3 }}>{row.item}</p>
+                      <p style={{ color: 'rgba(15,27,31,0.5)', fontSize: 13, lineHeight: 1.5 }}>{row.note}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* HOPE MARKER */}
+      <section style={{ backgroundColor: '#0F1B1F', padding: '80px 24px' }}>
+        <div style={{ maxWidth: 900, margin: '0 auto', textAlign: 'center' }}>
+          <Reveal>
+            <p style={{ color: 'rgba(216,171,105,0.5)', fontSize: 11, fontWeight: 700, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: 24 }}>The promise</p>
+            <p style={{ color: '#F5F0E8', fontSize: 'clamp(24px, 4vw, 42px)', fontWeight: 300, lineHeight: 1.4, letterSpacing: '-0.015em' }}>
+              You already have what it takes. This gives you the structure to protect it.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
       {/* FINAL CTA — APP DOWNLOAD */}
       <section style={{ backgroundColor: '#D8AB69', padding: '100px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
@@ -394,7 +443,7 @@ export default function Home() {
               The governance system.<br />In your pocket.
             </h2>
             <p style={{ color: 'rgba(15,27,31,0.65)', fontSize: 17, lineHeight: 1.7, maxWidth: 480, margin: '0 auto 40px' }}>
-              Human Enterprise Theory as a daily operating system. Mission, board, capitals, decisions, ritual, and protection. All in one place.
+              Human Enterprise Theory as a daily operating system. Mission, board, capitals, decisions, ritual, and protection — all in one place.
             </p>
             <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href="/contact" style={{ backgroundColor: '#0F1B1F', color: '#D8AB69', padding: '16px 40px', borderRadius: 6, fontSize: 14, fontWeight: 700, textDecoration: 'none' }}>
@@ -410,3 +459,4 @@ export default function Home() {
     </>
   )
 }
+// appended — see actual page.js for full content
