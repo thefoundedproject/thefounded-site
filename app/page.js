@@ -1,11 +1,11 @@
 export default function Home() {
   const pillars = [
-    { name: 'Mission & Values', desc: 'Clarify what you are actually building — not just what you do, but why it matters and where it is going.' },
-    { name: 'Personal Capital', desc: 'Health, time, relationships, reputation, intellectual property, and finances. Map what you have. Protect what you build.' },
-    { name: 'Advisory Support', desc: 'Who is in your corner? Build a board of advisors for your life — people with counsel, not just opinions.' },
-    { name: 'Data Stewardship', desc: 'Your identity, your digital presence, your information. Own it before someone else monetizes it.' },
-    { name: 'Community Coordination', desc: 'Organized human interdependence. Partnership, cooperative structures, and mutual support over isolation.' },
-    { name: 'Continuity Planning', desc: 'What happens to what you built if something disrupts your capacity? Plan for the long arc, not just the next season.' },
+    { name: 'Mission & Values', desc: 'Name what you are building and why. Mission gives your decisions weight. Values tell you where to hold the line.' },
+    { name: 'Personal Capital', desc: 'You have more than you know. Health, time, relationships, reputation, intellectual property, finances. This pillar maps what you already own.' },
+    { name: 'Advisory Support', desc: 'Supporters keep you warm. Counsel keeps you accurate. Build a board of advisors for your life. People who will tell you the truth.' },
+    { name: 'Data Stewardship', desc: 'Your digital identity is already being built. This pillar asks: by whom, and under what terms. Then it gives you the tools to answer.' },
+    { name: 'Community Coordination', desc: 'You were not built to do this alone. This pillar builds the structures that make cooperation real and sustainable.' },
+    { name: 'Continuity Planning', desc: 'Consider what happens to what you built if life disrupts your capacity. Plan beyond the next season. Think in arcs.' },
   ]
 
   return (
@@ -21,11 +21,11 @@ export default function Home() {
               <span style={{ color: '#D8AB69' }}>as a corporation.</span>
             </h1>
             <div style={{ width: '60px', height: '2px', backgroundColor: '#D8AB69' }} className="mb-8" />
-            <p className="text-gray-300 text-xl leading-relaxed max-w-2xl mb-4">
-              Corporations are built to protect capital, continuity, and decision-making across time. You deserve the same architecture.
+            <p className="text-gray-300 text-xl leading-relaxed max-w-2xl mb-6">
+              Corporations are built to protect capital, continuity, and decision-making across time. You deserve the same infrastructure applied to your own life.
             </p>
             <p className="text-gray-300 text-xl leading-relaxed max-w-2xl mb-12">
-              The Founded translates the protective intelligence of governance into a framework any human being can use — not to become more corporate, but to remain more fully human inside systems that already use institutional power.
+              The Founded translates that protective intelligence into a framework any person can use. The goal is not to make you more corporate. It is to help you stay more fully human inside systems that already use institutional power.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="/theory" style={{ backgroundColor: '#D8AB69', color: '#0F1B1F' }} className="inline-block px-8 py-4 font-semibold text-sm rounded hover:opacity-90 transition-opacity">
@@ -55,7 +55,7 @@ export default function Home() {
           <p style={{ color: '#D8AB69' }} className="text-sm font-semibold uppercase tracking-widest mb-4">The Framework</p>
           <h2 style={{ color: '#0F1B1F' }} className="text-3xl font-light mb-4">Six pillars of personal governance.</h2>
           <p style={{ color: '#0F1B1F' }} className="text-lg mb-12 opacity-70 max-w-2xl">
-            This is not self-help. This is infrastructure. Each pillar represents a domain of life that institutions protect and that most people have never been taught to protect for themselves.
+            This is infrastructure. Each pillar names a domain of life that institutions protect as a matter of course. Most people were never taught to protect these things for themselves.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {pillars.map((pillar, i) => (
