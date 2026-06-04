@@ -27,12 +27,12 @@ export default function Coaching() {
               Healing creates possibility. But possibility still needs structure. A person can work hard to reclaim themselves and still be pulled back into burnout, bad partnerships, financial instability, or disorganized decision-making.
             </p>
             <p style={{ color: '#0F1B1F' }} className="text-lg leading-relaxed">
-              The Method builds the infrastructure around reclaimed agency — so it holds.
+              The Method builds the infrastructure around reclaimed agency so it holds.
             </p>
           </div>
           <div className="space-y-6">
             {[
-              { phase: 'Phase 1', name: 'Assessment & Mapping', desc: 'A full inventory of your six capitals — health, time, relationships, reputation, intellectual property, and finances. Know what you have before you build.' },
+              { phase: 'Phase 1', name: 'Assessment & Mapping', desc: 'A full inventory of your six capitals: health, time, relationships, reputation, intellectual property, and finances. Know what you have before you build.' },
               { phase: 'Phase 2', name: 'Governance Architecture', desc: 'Define your mission, values, and decision framework. Build your advisory board. Establish boundaries and long-term strategy.' },
               { phase: 'Phase 3', name: 'Systems & Continuity', desc: 'Data protection, emergency planning, and continuity structures. What happens to what you built if life disrupts your capacity?' },
               { phase: 'Phase 4', name: 'Community Coordination', desc: 'Identify aligned partners, cooperative structures, and mutual support networks. Agency without community is fragile.' },

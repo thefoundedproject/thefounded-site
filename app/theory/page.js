@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Human Enterprise Theory | The Founded',
-  description: 'Human Enterprise Theory — a human-centered governance framework for agency, protection, and community flourishing in the AI era. By Dr. Stephen Thompson.',
+  description: 'Human Enterprise Theory, a human-centered governance framework for agency, protection, and community flourishing in the AI era. By Dr. Stephen Thompson.',
 }
 
 export default function Theory() {
@@ -25,7 +25,7 @@ export default function Theory() {
             Modern systems reward people and entities that are structured, protected, connected, strategically advised, legally aware, financially literate, reputationally managed, data-conscious, and able to coordinate resources over time.
           </p>
           <p style={{ color: '#0F1B1F' }} className="text-lg leading-relaxed mb-6">
-            Corporations are built for this world. Wealthy families often train their children for this world. Elite institutions quietly teach this world. Many communities are expected to survive this world without ever being taught how it works.
+            Corporations are built for this world. Wealthy families often train their children for this world. Elite institutions teach this world to the people they serve. Many communities are expected to survive this world without ever being taught how it works.
           </p>
           <p style={{ color: '#0F1B1F' }} className="text-lg leading-relaxed mb-6">
             Human Enterprise Theory translates the protective intelligence of governance into human-centered life architecture. The purpose is not to make people more corporate. The purpose is to help people remain more fully human inside systems that already use institutional power.
@@ -47,7 +47,7 @@ export default function Theory() {
                 People born into stable, well-resourced environments often inherit governance structures before they even know those structures have a name.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                Mentorship, financial literacy, institutional fluency, legal awareness, educational continuity, emotional safety, professional networks, protected experimentation, and optimized resource allocation — inherited as a birthright.
+                Mentorship, financial literacy, institutional fluency, legal awareness, educational continuity, emotional safety, professional networks, protected experimentation, and optimized resource allocation. Inherited as a birthright.
               </p>
             </div>
             <div className="p-8 rounded-sm" style={{ backgroundColor: '#2A5A66' }}>
@@ -80,7 +80,7 @@ export default function Theory() {
             They extract labor from people who cannot negotiate. They extract time from people who have no boundaries. They extract creativity from people who have no intellectual property protections. They extract health from people who have no wellness infrastructure.
           </p>
           <p style={{ color: '#0F1B1F' }} className="text-lg leading-relaxed">
-            Human Enterprise Theory names this dynamic — and then builds counter-architecture. Not as an act of rage, but as an act of organized, intentional community intelligence.
+            Human Enterprise Theory names this dynamic. Then it builds counter-architecture. Organized. Intentional. Built on community intelligence.
           </p>
         </div>
       </section>

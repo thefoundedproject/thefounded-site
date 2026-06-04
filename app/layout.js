@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'The Founded | Human Enterprise Theory',
-  description: 'The Founded is the platform for Human Enterprise Theory — a governance framework for your life. Structure, agency, and continuity for the AI era. Built by Dr. Stephen Thompson, DC, DACM, FAIHM.',
+  description: 'The Founded is the platform for Human Enterprise Theory, a governance framework for your life. Structure, agency, and continuity for the AI era. Built by Dr. Stephen Thompson, DC, DACM, FAIHM.',
   keywords: 'Human Enterprise Theory, personal governance, Thompson Coaching Method, Founded App, Dr. Stephen Thompson, survivor scholar clinician',
   openGraph: {
     title: 'The Founded | Human Enterprise Theory',
@@ -45,7 +45,7 @@ function Footer() {
           <div className="md:col-span-2">
             <div className="text-white font-semibold text-lg mb-3"><span style={{ color: '#D8AB69' }}>The</span> Founded</div>
             <p className="text-sm leading-relaxed max-w-sm">
-              Humanizing the corporation, not corporatizing the human. A governance framework for your life — for the AI era and beyond.
+              Humanizing the corporation, not corporatizing the human. A governance framework for your life. Built for the world we're in now.
             </p>
             <div style={{ width: '40px', height: '2px', backgroundColor: '#D8AB69' }} className="mt-4" />
           </div>

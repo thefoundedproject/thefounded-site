@@ -31,7 +31,7 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto">
           <p style={{ color: '#D8AB69' }} className="text-sm font-semibold uppercase tracking-widest mb-4">Get Started</p>
           <h1 className="text-white text-5xl font-light leading-tight mb-6">Begin Here</h1>
-          <p className="text-gray-300 text-lg max-w-xl">App waitlist, coaching inquiry, or partnership — this is the right place.</p>
+          <p className="text-gray-300 text-lg max-w-xl">App waitlist, coaching inquiry, or partnership. This is the right place.</p>
         </div>
       </section>
 
